@@ -1,9 +1,9 @@
 name: Attach Release Assets
 on:
   workflow_dispatch:
-  release:
-    types: [created]  # Note: Neither create nor publish trigger if a release is drafted first.
-                      #       In order of it to trigger the release needs to be published when created.
+  #release:
+  #  types: [created]  # Note: Neither create nor publish trigger if a release is drafted first.
+  #                    #       In order of it to trigger the release needs to be published when created.
 
 jobs:
   upload-release-assets:
